@@ -15,6 +15,8 @@ public class GobalExceptionHandler {
         System.out.println("aaa");
         System.out.println("bbb");
         System.out.println("ccc");
+        System.out.println("ggg");
+        System.out.println("jjj");
         return ex.getMessage();
 
         //System.out.println("ggg");
