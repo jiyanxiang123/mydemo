@@ -8,12 +8,14 @@ import javax.servlet.http.HttpServletRequest;
 
 @ControllerAdvice(basePackages = "com.example.demo.controller")
 public class GobalExceptionHandler {
-
     @ExceptionHandler(value = RuntimeException.class)
     @ResponseBody
     public String exception1(HttpServletRequest request,Exception ex,Object handler){
 
+        System.out.println("aaa");
         return ex.getMessage();
+
+        //System.out.println("ggg");
     }
 
 
