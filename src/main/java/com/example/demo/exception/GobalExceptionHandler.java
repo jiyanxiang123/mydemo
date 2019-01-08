@@ -13,10 +13,6 @@ public class GobalExceptionHandler {
     public String exception1(HttpServletRequest request,Exception ex,Object handler){
 
         System.out.println("aaa");
-        System.out.println("bbb");
-        System.out.println("ccc");
-        System.out.println("eee");
-        System.out.println("jjj");
         return ex.getMessage();
 
         //System.out.println("ggg");
